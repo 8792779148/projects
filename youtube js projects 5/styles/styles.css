@@ -1,0 +1,31 @@
+* {
+  /* margin: 0; */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1efef;
+  font-family: cursive;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.color-container {
+  background-color: #cb6e6e;
+  width: 300px;
+  height: 150px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #f1efef;
+  border: solid 2px black;
+}

@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  background-image: url("https://images.unsplash.com/photo-1560762484-813fc97650a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80");
+  background-size: cover;
+  background-repeat: none;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 97.8vw;
+  justify-content: center;
+}
+.main-container h1 {
+  color: aliceblue;
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: orangered;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.btn:hover {
+  filter: brightness(0.8);
+}
+.active.main-container {
+  filter: blur(5px);
+}
+.popup {
+  position: fixed;
+  left: 50%;
+  width: 400px;
+  height: 200px;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  background-image: url("https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: cursive;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  transition: all 0.7s;
+  opacity: 1;
+}
+h4 {
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  margin-bottom: px;
+  margin-top: 0;
+  padding-top: 0;
+}
+label {
+  color: rgb(240, 224, 255);
+}
+.pop {
+  margin-top: 20px;
+  padding: 4px 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.input {
+  margin-top: 20px;
+  padding: 4px 3px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.pop:hover {
+  background-color: #f15a5a;
+}
+.wrong {
+  position: fixed;
+  left: 90%;
+  top: 10%;
+  cursor: pointer;
+}
+.active.popup {
+  visibility: hidden;
+  opacity: 0;
+  top: 10%;
+}

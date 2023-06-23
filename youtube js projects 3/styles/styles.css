@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: salmon;
+}
+#container {
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 21px;
+  background-color: lightpink;
+  text-align: center;
+  width: 500px;
+}
+#textarea{
+    resize: none;
+    width: 400px;
+    height: 100px;
+    padding-left: 10px;
+}
+#char{
+display: flex;
+justify-content: space-between;
+padding: 0 46px;
+}
